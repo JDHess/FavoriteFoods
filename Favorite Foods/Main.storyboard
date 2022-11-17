@@ -154,7 +154,7 @@
                     </view>
                     <navigationItem key="navigationItem" id="0F9-bz-g0K"/>
                     <connections>
-                        <segue destination="VWh-Wf-Ald" kind="show" identifier="SignupRemote" id="qHp-3F-DVt"/>
+                        <segue destination="VWh-Wf-Ald" kind="show" identifier="Signinmap" id="7Uc-wU-t2E"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
@@ -212,7 +212,7 @@
                     </view>
                     <navigationItem key="navigationItem" id="ubA-yw-0HS"/>
                     <connections>
-                        <segue destination="VWh-Wf-Ald" kind="show" identifier="LoginRemote" id="YGi-A8-Z0U"/>
+                        <segue destination="VWh-Wf-Ald" kind="show" identifier="Loginmap" id="bES-c5-KOy"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="XcE-Gk-YZg" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
@@ -236,7 +236,7 @@
                 </tabBarController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="fzW-MC-k7U" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="2606" y="12"/>
+            <point key="canvasLocation" x="3142" y="27"/>
         </scene>
         <!--Home-->
         <scene sceneID="ZsT-xE-KUI">
@@ -302,7 +302,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Aez-mP-HRP" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="3556.521739130435" y="-316.07142857142856"/>
+            <point key="canvasLocation" x="4436" y="-315"/>
         </scene>
         <!--Favorite Foods-->
         <scene sceneID="cQ3-PC-Egl">
@@ -316,11 +316,11 @@
                                 <rect key="frame" x="0.0" y="48" width="414" height="765"/>
                                 <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                                 <prototypes>
-                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" reuseIdentifier="TableViewCell" rowHeight="146" id="Rmu-6F-Kr9">
-                                        <rect key="frame" x="0.0" y="50" width="414" height="146"/>
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" reuseIdentifier="TableViewCell" rowHeight="148" id="Rmu-6F-Kr9">
+                                        <rect key="frame" x="0.0" y="50" width="414" height="148"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="Rmu-6F-Kr9" id="NI8-Mj-vpa">
-                                            <rect key="frame" x="0.0" y="0.0" width="414" height="146"/>
+                                            <rect key="frame" x="0.0" y="0.0" width="414" height="148"/>
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
                                                 <textField opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="248" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Place To Eat" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="LIC-gB-3ie">
@@ -374,7 +374,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="OcG-jA-xjn" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="3566.666666666667" y="349.55357142857139"/>
+            <point key="canvasLocation" x="4434.7826086956529" y="363.61607142857139"/>
         </scene>
         <!--Table View Detail-->
         <scene sceneID="Bu3-7H-1N7">
@@ -535,7 +535,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="fwk-Np-uQ7" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="4349" y="350"/>
+            <point key="canvasLocation" x="5216" y="364"/>
         </scene>
         <!--Navigation Controller-->
         <scene sceneID="EKP-Sd-Zmg">
@@ -557,7 +557,7 @@
         </scene>
     </scenes>
     <inferredMetricsTieBreakers>
-        <segue reference="qHp-3F-DVt"/>
+        <segue reference="bES-c5-KOy"/>
     </inferredMetricsTieBreakers>
     <resources>
         <image name="cup.and.saucer.fill" catalog="system" width="128" height="91"/>
